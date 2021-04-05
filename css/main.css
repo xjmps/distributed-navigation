@@ -18,11 +18,12 @@ Image width: 2rem */
 
 body {
   font-size: 1.125rem;
-  margin: 0;
+  margin: .5rem;
+  padding: 1rem, .75em 1em .6em;
 }
 
 header {
-
+background-color: #e2e2e2;
 }
 
 header h1 {
@@ -30,7 +31,7 @@ header h1 {
 }
 
 header img {
-
+width: 2rem;
 }
 
 header p {
