@@ -15,3 +15,8 @@ Colours: #e2e2e2, #0074d9, #fff
 Margins: .5rem
 Paddings: 1rem, .75em 1em .6em
 Image width: 2rem */
+
+body {
+  font-size: 1.125rem;
+  margin: 0;
+}
