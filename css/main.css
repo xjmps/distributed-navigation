@@ -18,12 +18,15 @@ Image width: 2rem */
 
 body {
   font-size: 1.125rem;
-  margin: .5rem;
-  padding: 1rem, .75em 1em .6em;
+  margin: 0rem;
+  padding: 1rem;
 }
 
 header {
-background-color: #e2e2e2;
+  background-color: #e2e2e2;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
 }
 
 header h1 {
@@ -31,15 +34,19 @@ header h1 {
 }
 
 header img {
-width: 2rem;
+  width: 2rem;
+  justify-content: flex-start;
 }
 
 header p {
+  font-size: 1.125rem;
 
 }
 
 nav ul {
-
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
 }
 
 nav a {
